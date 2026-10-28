@@ -39,8 +39,8 @@ def day_title(plan: Path, day_num: int) -> str:
     if plan.exists():
         first_line = plan.read_text(encoding="utf-8").splitlines()[0:1]
         if first_line:
-            title = re.sub(r"^#+\\s*", "", first_line[0]).strip()
-            title = re.sub(r"^Day\\s+\\d+\\s*[·|—-]\\s*", "", title, flags=re.I)
+            title = re.sub(r"^#+\s*", "", first_line[0]).strip()
+            title = re.sub(r"^Day\s+\d+\s*[·|—-]\s*", "", title, flags=re.I)
             return title or f"Day {day_num:02d}"
     return f"Day {day_num:02d}"
 
@@ -55,7 +55,7 @@ def build() -> None:
         days = []
         if week_dir.exists():
             for day_dir in sorted(week_dir.glob("day-[0-9][0-9]")):
-                match = re.search(r"day-(\\d+)$", day_dir.name)
+                match = re.search(r"day-(\d+)$", day_dir.name)
                 if not match:
                     continue
                 day_num = int(match.group(1))
