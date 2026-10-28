@@ -1,6 +1,6 @@
 # DSA and Python Daily
 
-My public accountability log for becoming interview-ready in Python, data structures and algorithms . One focused block every day, one quiz every day, every solution committed.
+# Public accountability log for becoming interview-ready in Python, data structures, and algorithms. One focused block every day, one quiz every day, every solution committed.
 
 
 ## How it works
@@ -17,7 +17,7 @@ Every day has its own folder under `weeks/`:
 
 ## The daily loop
 
-1. 5 to 8 AM: Kaggle Python lesson, W3Schools DSA page, the day's problem.
+1. Kaggle Python lesson, W3Schools DSA page, the day's problem.
 2. Take the quiz, then check the answers.
 3. Fill in notes, explain the solution aloud, commit and push.
 4. Sunday-style lighter day each week: keep the morning block, redo the three hardest problems, no new content.
