@@ -1,8 +1,7 @@
 # DSA and Python Daily
 
-My public accountability log for becoming interview-ready in Python, data structures and algorithms by mid-February 2027. One focused block every morning, one quiz every day, every solution committed.
+My public accountability log for becoming interview-ready in Python, data structures and algorithms . One focused block every day, one quiz every day, every solution committed.
 
-**Start date:** Wed 28 Oct 2026 · **Goal:** finish NeetCode 150 and walk into the Andela and Safaricom assessments comfortable.
 
 ## How it works
 
