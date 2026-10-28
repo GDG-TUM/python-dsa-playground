@@ -2,16 +2,16 @@
 
 Public accountability log for becoming interview-ready in Python, data structures, and algorithms. One focused block every day, one quiz every day, every solution committed.
 
-## Interactive learning hub
+## Static learning hub
 
-**[Open DSA Lab](https://Markkaruga254.github.io/python-dsa-playground/)** — a browser-based companion for members.
+**[Open the learning hub](https://Markkaruga254.github.io/python-dsa-playground/)** — a visual, mobile-friendly navigation page for the course.
 
-- Browse the 16-week roadmap and Week 01 daily sessions.
-- Run Python in your browser with Pyodide—no local Python setup required.
-- Check off tasks, take the Day 01 quiz, and switch between dark and light themes.
-- Progress is saved in local browser storage; no account or server is required.
+- Browse the 16-week roadmap and jump directly to any week.
+- Open published daily plans, quizzes, answer keys, notes, and solution folders.
+- The site is static: course material and member work live in this repository.
+- GitHub Actions rebuilds the page from `weeks/` whenever weekly content changes.
 
-The hub is a companion to the repository, not a replacement: use the daily plan and quiz files as the source of truth, write your notes, and commit your solutions here. Each learner's progress stays on their own browser/device.
+The repository remains the source of truth. The site is designed for navigation, not as a coding playground or progress-tracking app.
 
 ## How it works
 
