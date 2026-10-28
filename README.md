@@ -1,6 +1,6 @@
 # DSA and Python Daily
 
-# Public accountability log for becoming interview-ready in Python, data structures, and algorithms. One focused block every day, one quiz every day, every solution committed.
+Public accountability log for becoming interview-ready in Python, data structures, and algorithms. One focused block every day, one quiz every day, every solution committed.
 
 
 ## How it works
